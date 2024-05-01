@@ -39,6 +39,7 @@ export const postDb = async (name, home, cell, email) => {
   const result = await request;
   console.log("Data saved to the database", result);
 };
+
 // Delete
 export const deleteDb = async (id) => {
   console.log("DELETE from the database", id);
